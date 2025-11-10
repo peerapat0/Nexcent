@@ -1,0 +1,68 @@
+/* ===== Clients Section ===== */
+.clients {
+  padding: 40px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.clients h3 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.clients .sub {
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+.logos-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px; 
+  margin-top: 18px;
+}
+
+
+.logos-box {
+  width: 90px;    
+  height: 40px;     
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logos-box img {
+  width: 100% !important;  
+  height: 100% !important; 
+  object-fit: contain !important; 
+}
+
+
+
+@media (max-width: 1024px) {
+  .logo-box {
+    width: 120px;  
+    height: 64px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .logo-box {
+    width: 90px;
+    height: 48px;
+  }
+
+  .logo-row {
+    gap: 20px; 
+  }
+}

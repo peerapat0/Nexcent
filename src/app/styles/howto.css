@@ -1,0 +1,61 @@
+
+.howto {
+  padding: 64px 0;
+  background: #fff;
+}
+
+.howto-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr; 
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.art-small img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.howto-text h3 {
+  font-size: 2rem;
+  margin: 0 0 16px;
+  color: #111827;
+}
+
+.howto-text .sub {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.howto-text .btn.primary {
+  background-color: var(--muted);
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.howto-text .btn.primary:hover {
+  background-color: #43a046;
+}
+
+
+@media (max-width: 1024px) {
+  .howto-grid {
+    grid-template-columns: 1fr; 
+    text-align: center;
+    gap: 32px;
+  }
+
+  .art-small img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
