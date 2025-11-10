@@ -1,3 +1,50 @@
+
+# 🧩 Nexcent Frontend Test – Next.js Project
+
+โปรเจกต์นี้เป็นแบบทดสอบ Frontend โดยใช้ **Next.js (React)** เพื่อสร้างหน้าเว็บตามดีไซน์ที่กำหนด  
+เน้นความเหมือนของ UI, ความลื่นของ Interaction/Animation และความครบถ้วนของ Responsive Design
+
+---
+
+## 🚀 Project Overview
+
+เว็บไซต์นี้ถูกพัฒนาเพื่อแสดงโครงสร้างหน้า Landing Page ตาม Figma ที่ได้รับ  
+โดยเน้นความสวยงาม การแยกโครงสร้าง Component ที่ชัดเจน และ Code Style ที่อ่านง่าย  
+ไม่มีการเชื่อมต่อ API หรือฐานข้อมูล เป็นเพียงส่วนของ **Frontend เท่านั้น**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js  
+- **Language:** JavaScript (ES6)  
+- **Styling:** External CSS (แบ่งตาม Section)  
+- **Animation:** CSS Transition / Framer Motion  
+- **Responsive:** Flexbox + Media Query  
+- **Font:** Inter, Sans-serif  
+
+---
+
+## 🧱 Project Structure
+
+โครงสร้าง Component หลักของหน้าเว็บประกอบด้วย:
+<Navbar /> <Hero /> <Clients /> <Features /> <Highlight /> <Stats /> <HowTo /> <Testimonial /> <Blog /> <CTA /> <Footer />
+
+# 1. ติดตั้ง Dependencies
+npm install
+
+# 2. รันโปรเจกต์ในโหมด Development
+npm run dev
+
+# 3. เปิดใน Browser
+http://localhost:3000
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
